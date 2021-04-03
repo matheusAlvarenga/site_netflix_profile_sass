@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Netflix Clone</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="js/functions.js"></script>
+    </head>
+    <body id="body" class="profile-body dark">
+        <header class="header-profile">
+            <img
+                class="header-profile__logo"
+                src="./images/main_logo.png"
+                alt="Netflix Logo"
+            />
+
+            <div onclick="changeTheme()" class="switch">
+                <input type="checkbox" id="check" class="switch__input" />
+                <div class="switch__ball"></div>
+            </div>
+        </header>
+        <main class="main-profile">
+            <h2 class="main-profile__title">Quem está assistindo?</h2>
+            <div class="main-profile__list">
+                <div class="main-profile__item">
+                    <img src="./images/profile1.png" alt="Profile Photo" />
+                    <p>Isabella</p>
+                </div>
+                <div class="main-profile__item">
+                    <img src="./images/profile2.png" alt="Profile Photo" />
+                    <p>Rosangela</p>
+                </div>
+                <div class="main-profile__item">
+                    <img src="./images/profile3.png" alt="Profile Photo" />
+                    <p>alessandro</p>
+                </div>
+                <div class="main-profile__item">
+                    <img src="./images/profile4.png" alt="Profile Photo" />
+                    <p>Matheus</p>
+                </div>
+                <div class="main-profile__item-add">
+                    <div class="main-profile__img-add">
+                        <img src="./images/plus.png" alt="Plus icon" />
+                    </div>
+                    <p>Adicionar perfil</p>
+                </div>
+            </div>
+            <button class="btn-transparent m-top-big">Gerenciar perfis</button>
+        </main>
+    </body>
+</html>

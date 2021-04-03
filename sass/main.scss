@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+/* =***= ABSTRACT =***= */
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+@import "./abstracts/placeholders";
+
+/* =***= BASE =***= */
+@import "./base/reset";
+@import "./base/typograph";
+@import "./base/utils";
+
+/* =***= COMPONENTS =***= */
+@import "./components/switch";
+@import "./components/buttons";
+
+/* =***= LAYOUT =***= */
+
+/* =***= PAGES =***= */
+@import "./pages/index";
+
+/* =***= THEMES =***= */
+@import "./themes/dark";
+@import "./themes/light";

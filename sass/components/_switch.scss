@@ -1,0 +1,31 @@
+.switch {
+    height: 30px;
+    width: 55px;
+    border-radius: 1000px;
+
+    position: relative;
+    cursor: pointer;
+
+    background-color: $color-grey-light-2;
+
+    &__input {
+        display: none;
+    }
+
+    &__ball {
+        transform: scale(1.2, 1.2);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-image: url("../../images/icon-dark-mode.png");
+        background-size: cover;
+        position: absolute;
+
+        transition: all 0.5s;
+    }
+
+    &__input:checked + &__ball {
+        transform: translateX(25px) scale(1.2, 1.2);
+        background-image: url("../../images/icon-light-mode.png");
+    }
+}

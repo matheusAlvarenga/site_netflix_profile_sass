@@ -1,0 +1,56 @@
+.dark {
+    .header-profile {
+        background-image: linear-gradient(
+            to bottom,
+            $color-grey-dark-2,
+            $color-grey-dark-1
+        );
+    }
+
+    .main-profile {
+        background-color: $color-grey-dark-1;
+
+        &__title {
+            color: $color-white;
+        }
+
+        p {
+            color: $color-grey-light-2;
+        }
+
+        &__item:hover {
+            img {
+                border-color: $color-grey-light-1;
+            }
+
+            p {
+                color: $color-grey-light-1;
+            }
+        }
+
+        &__item-add:hover {
+            p {
+                color: $color-grey-light-1;
+            }
+        }
+
+        &__img-add {
+            img {
+                background-color: $color-grey-light-2;
+            }
+        }
+
+        &__item-add:hover > .main-profile__img-add {
+            background-color: $color-grey-light-1;
+        }
+    }
+
+    .btn-transparent {
+        color: $color-grey-light-2;
+        border-color: $color-grey-light-2;
+        &:hover {
+            border-color: $color-grey-light-1;
+            color: $color-grey-light-1;
+        }
+    }
+}

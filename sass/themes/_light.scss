@@ -1,0 +1,56 @@
+.light {
+    .header-profile {
+        background-image: linear-gradient(
+            to bottom,
+            $color-grey-light-2,
+            $color-grey-light-1
+        );
+    }
+
+    .main-profile {
+        background-color: $color-grey-light-1;
+
+        &__title {
+            color: $color-black;
+        }
+
+        p {
+            color: $color-grey-dark-3;
+        }
+
+        &__item:hover {
+            img {
+                border-color: $color-grey-dark-1;
+            }
+
+            p {
+                color: $color-black;
+            }
+        }
+
+        &__item-add:hover {
+            p {
+                color: $color-black;
+            }
+        }
+
+        &__img-add {
+            img {
+                background-color: $color-grey-light-2;
+            }
+        }
+
+        &__item-add:hover > .main-profile__img-add {
+            background-color: $color-grey-dark-1;
+        }
+    }
+
+    .btn-transparent {
+        color: $color-grey-dark-3;
+        border-color: $color-grey-dark-3;
+        &:hover {
+            border-color: $color-black;
+            color: $color-black;
+        }
+    }
+}
