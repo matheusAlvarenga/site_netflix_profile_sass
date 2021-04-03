@@ -17,7 +17,7 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-image: url("../../images/icon-dark-mode.png");
+        background-image: url("../images/icon-dark-mode.png");
         background-size: cover;
         position: absolute;
 
@@ -26,6 +26,6 @@
 
     &__input:checked + &__ball {
         transform: translateX(25px) scale(1.2, 1.2);
-        background-image: url("../../images/icon-light-mode.png");
+        background-image: url("../images/icon-light-mode.png");
     }
 }
